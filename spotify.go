@@ -44,7 +44,7 @@ type Album struct {
 // Track @doc
 type Track struct {
 	Name       string `json:"name"`
-	DurationMs int64  `json:"duration_ms"`
+	DurationMs int    `json:"duration_ms"`
 	Album      Album  `json:"album"`
 }
 
